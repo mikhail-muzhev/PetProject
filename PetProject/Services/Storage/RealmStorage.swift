@@ -15,7 +15,7 @@ enum RealmStorageVersion: UInt64 {
     case v1 = 1
 }
 
-class RealmStorage {
+final class RealmStorage {
     
     var realm: Realm {
         guard let realm = try? Realm(configuration: _realmConfiguration) else { fatalError() }
