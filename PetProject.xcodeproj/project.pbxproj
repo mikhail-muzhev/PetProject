@@ -35,6 +35,9 @@
 		8F8BDC5924C0195800E55A12 /* DebugLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5324C0195800E55A12 /* DebugLoggerType.swift */; };
 		8F8BDC5A24C0195800E55A12 /* DefaultLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5424C0195800E55A12 /* DefaultLoggerType.swift */; };
 		8F8BDC5B24C0195800E55A12 /* WarningLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */; };
+		8F8BDC5E24C020B000E55A12 /* RealmStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5D24C020B000E55A12 /* RealmStorage.swift */; };
+		8F8BDC6124C0212E00E55A12 /* FileManager+Pathes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC6024C0212E00E55A12 /* FileManager+Pathes.swift */; };
+		8F8BDC6324C021D100E55A12 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC6224C021D100E55A12 /* AppError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		8F8BDC5324C0195800E55A12 /* DebugLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugLoggerType.swift; sourceTree = "<group>"; };
 		8F8BDC5424C0195800E55A12 /* DefaultLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLoggerType.swift; sourceTree = "<group>"; };
 		8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarningLoggerType.swift; sourceTree = "<group>"; };
+		8F8BDC5D24C020B000E55A12 /* RealmStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmStorage.swift; sourceTree = "<group>"; };
+		8F8BDC6024C0212E00E55A12 /* FileManager+Pathes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+Pathes.swift"; sourceTree = "<group>"; };
+		8F8BDC6224C021D100E55A12 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +178,7 @@
 		8F8BDC3F24C0138900E55A12 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				8F8BDC5F24C0211800E55A12 /* FileManager */,
 				8F8BDC4624C016ED00E55A12 /* NSAttributedString */,
 				8F8BDC4024C013A400E55A12 /* UIView */,
 			);
@@ -190,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				8F8BDC4424C0141A00E55A12 /* Style.swift */,
+				8F8BDC6224C021D100E55A12 /* AppError.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -216,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				8F8BDC4B24C018F600E55A12 /* Logger */,
+				8F8BDC5C24C0209400E55A12 /* Storage */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -231,6 +240,22 @@
 				8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */,
 			);
 			path = MessageType;
+			sourceTree = "<group>";
+		};
+		8F8BDC5C24C0209400E55A12 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC5D24C020B000E55A12 /* RealmStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		8F8BDC5F24C0211800E55A12 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC6024C0212E00E55A12 /* FileManager+Pathes.swift */,
+			);
+			path = FileManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,7 +378,10 @@
 			files = (
 				8F8BDC5924C0195800E55A12 /* DebugLoggerType.swift in Sources */,
 				8F8BDC4A24C0172600E55A12 /* NSAttributedString+Attributes.swift in Sources */,
+				8F8BDC6324C021D100E55A12 /* AppError.swift in Sources */,
 				8F8BDC3E24C0137100E55A12 /* AttributedLabel.swift in Sources */,
+				8F8BDC5E24C020B000E55A12 /* RealmStorage.swift in Sources */,
+				8F8BDC6124C0212E00E55A12 /* FileManager+Pathes.swift in Sources */,
 				8F8BDC4524C0141A00E55A12 /* Style.swift in Sources */,
 				8F8BDC4924C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift in Sources */,
 				8F8BDC4E24C0192800E55A12 /* Logger.swift in Sources */,
