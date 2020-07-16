@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,27 @@
 		8F3D9FBC24C0055300374E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D9FBA24C0055300374E09 /* Main.storyboard */; };
 		8F3D9FBE24C0055800374E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D9FBD24C0055800374E09 /* Assets.xcassets */; };
 		8F3D9FC124C0055800374E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F3D9FBF24C0055800374E09 /* LaunchScreen.storyboard */; };
+		8F3D9FCA24C006F500374E09 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FC924C006F500374E09 /* SnapKit */; };
+		8F3D9FCD24C0079000374E09 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FCC24C0079000374E09 /* Realm */; };
+		8F3D9FCF24C0079000374E09 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FCE24C0079000374E09 /* RealmSwift */; };
+		8F3D9FDD24C0082200374E09 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FDC24C0082200374E09 /* Moya */; };
+		8F3D9FDF24C0082200374E09 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FDE24C0082200374E09 /* ReactiveMoya */; };
+		8F3D9FE124C0082200374E09 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 8F3D9FE024C0082200374E09 /* RxMoya */; };
+		8F8BDBE924C00D4B00E55A12 /* PetProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDBE824C00D4B00E55A12 /* PetProjectTests.swift */; };
+		8F8BDC3624C0127900E55A12 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3524C0127900E55A12 /* RxSwift */; };
+		8F8BDC3824C0127900E55A12 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3724C0127900E55A12 /* RxRelay */; };
+		8F8BDC3A24C0127900E55A12 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3924C0127900E55A12 /* RxCocoa */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F8BDBEB24C00D4B00E55A12 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F3D9FA924C0055300374E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F3D9FB024C0055300374E09;
+			remoteInfo = PetProject;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8F3D9FB124C0055300374E09 /* PetProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +44,29 @@
 		8F3D9FBD24C0055800374E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F3D9FC024C0055800374E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F3D9FC224C0055800374E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8BDBE624C00D4B00E55A12 /* PetProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F8BDBE824C00D4B00E55A12 /* PetProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProjectTests.swift; sourceTree = "<group>"; };
+		8F8BDBEA24C00D4B00E55A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8F3D9FAE24C0055300374E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8BDC3A24C0127900E55A12 /* RxCocoa in Frameworks */,
+				8F3D9FDD24C0082200374E09 /* Moya in Frameworks */,
+				8F3D9FE124C0082200374E09 /* RxMoya in Frameworks */,
+				8F3D9FDF24C0082200374E09 /* ReactiveMoya in Frameworks */,
+				8F3D9FCF24C0079000374E09 /* RealmSwift in Frameworks */,
+				8F3D9FCD24C0079000374E09 /* Realm in Frameworks */,
+				8F3D9FCA24C006F500374E09 /* SnapKit in Frameworks */,
+				8F8BDC3824C0127900E55A12 /* RxRelay in Frameworks */,
+				8F8BDC3624C0127900E55A12 /* RxSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8BDBE324C00D4B00E55A12 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				8F3D9FB324C0055300374E09 /* PetProject */,
+				8F8BDBE724C00D4B00E55A12 /* PetProjectTests */,
 				8F3D9FB224C0055300374E09 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				8F3D9FB124C0055300374E09 /* PetProject.app */,
+				8F8BDBE624C00D4B00E55A12 /* PetProjectTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,6 +97,7 @@
 		8F3D9FB324C0055300374E09 /* PetProject */ = {
 			isa = PBXGroup;
 			children = (
+				8F3D9FE224C008C400374E09 /* Lifecycle */,
 				8F3D9FB424C0055300374E09 /* AppDelegate.swift */,
 				8F3D9FB624C0055300374E09 /* SceneDelegate.swift */,
 				8F3D9FB824C0055300374E09 /* ViewController.swift */,
@@ -65,6 +107,22 @@
 				8F3D9FC224C0055800374E09 /* Info.plist */,
 			);
 			path = PetProject;
+			sourceTree = "<group>";
+		};
+		8F3D9FE224C008C400374E09 /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		8F8BDBE724C00D4B00E55A12 /* PetProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDBE824C00D4B00E55A12 /* PetProjectTests.swift */,
+				8F8BDBEA24C00D4B00E55A12 /* Info.plist */,
+			);
+			path = PetProjectTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +141,38 @@
 			dependencies = (
 			);
 			name = PetProject;
+			packageProductDependencies = (
+				8F3D9FC924C006F500374E09 /* SnapKit */,
+				8F3D9FCC24C0079000374E09 /* Realm */,
+				8F3D9FCE24C0079000374E09 /* RealmSwift */,
+				8F3D9FDC24C0082200374E09 /* Moya */,
+				8F3D9FDE24C0082200374E09 /* ReactiveMoya */,
+				8F3D9FE024C0082200374E09 /* RxMoya */,
+				8F8BDC3524C0127900E55A12 /* RxSwift */,
+				8F8BDC3724C0127900E55A12 /* RxRelay */,
+				8F8BDC3924C0127900E55A12 /* RxCocoa */,
+			);
 			productName = PetProject;
 			productReference = 8F3D9FB124C0055300374E09 /* PetProject.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8F8BDBE524C00D4B00E55A12 /* PetProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F8BDBED24C00D4B00E55A12 /* Build configuration list for PBXNativeTarget "PetProjectTests" */;
+			buildPhases = (
+				8F8BDBE224C00D4B00E55A12 /* Sources */,
+				8F8BDBE324C00D4B00E55A12 /* Frameworks */,
+				8F8BDBE424C00D4B00E55A12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F8BDBEC24C00D4B00E55A12 /* PBXTargetDependency */,
+			);
+			name = PetProjectTests;
+			productName = PetProjectTests;
+			productReference = 8F8BDBE624C00D4B00E55A12 /* PetProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -100,6 +187,10 @@
 					8F3D9FB024C0055300374E09 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					8F8BDBE524C00D4B00E55A12 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8F3D9FB024C0055300374E09;
+					};
 				};
 			};
 			buildConfigurationList = 8F3D9FAC24C0055300374E09 /* Build configuration list for PBXProject "PetProject" */;
@@ -111,11 +202,18 @@
 				Base,
 			);
 			mainGroup = 8F3D9FA824C0055300374E09;
+			packageReferences = (
+				8F3D9FC824C006F500374E09 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				8F3D9FCB24C0079000374E09 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				8F3D9FDB24C0082200374E09 /* XCRemoteSwiftPackageReference "Moya" */,
+				8F8BDC3424C0127900E55A12 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = 8F3D9FB224C0055300374E09 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				8F3D9FB024C0055300374E09 /* PetProject */,
+				8F8BDBE524C00D4B00E55A12 /* PetProjectTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +226,13 @@
 				8F3D9FC124C0055800374E09 /* LaunchScreen.storyboard in Resources */,
 				8F3D9FBE24C0055800374E09 /* Assets.xcassets in Resources */,
 				8F3D9FBC24C0055300374E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F8BDBE424C00D4B00E55A12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +249,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8F8BDBE224C00D4B00E55A12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F8BDBE924C00D4B00E55A12 /* PetProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F8BDBEC24C00D4B00E55A12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F3D9FB024C0055300374E09 /* PetProject */;
+			targetProxy = 8F8BDBEB24C00D4B00E55A12 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8F3D9FBA24C0055300374E09 /* Main.storyboard */ = {
@@ -284,7 +405,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PetProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmuzhev.PetProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,7 +424,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PetProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,8 +433,53 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mmuzhev.PetProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F8BDBEE24C00D4B00E55A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PetProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmuzhev.PetProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetProject.app/PetProject";
+			};
+			name = Debug;
+		};
+		8F8BDBEF24C00D4B00E55A12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PetProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mmuzhev.PetProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetProject.app/PetProject";
 			};
 			name = Release;
 		};
@@ -335,7 +504,99 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8F8BDBED24C00D4B00E55A12 /* Build configuration list for PBXNativeTarget "PetProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F8BDBEE24C00D4B00E55A12 /* Debug */,
+				8F8BDBEF24C00D4B00E55A12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F3D9FC824C006F500374E09 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
+		8F3D9FCB24C0079000374E09 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.3.0;
+			};
+		};
+		8F3D9FDB24C0082200374E09 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 14.0.0;
+			};
+		};
+		8F8BDC3424C0127900E55A12 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F3D9FC924C006F500374E09 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FC824C006F500374E09 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		8F3D9FCC24C0079000374E09 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FCB24C0079000374E09 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		8F3D9FCE24C0079000374E09 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FCB24C0079000374E09 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		8F3D9FDC24C0082200374E09 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FDB24C0082200374E09 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		8F3D9FDE24C0082200374E09 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FDB24C0082200374E09 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		8F3D9FE024C0082200374E09 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F3D9FDB24C0082200374E09 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		8F8BDC3524C0127900E55A12 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F8BDC3424C0127900E55A12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		8F8BDC3724C0127900E55A12 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F8BDC3424C0127900E55A12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		8F8BDC3924C0127900E55A12 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F8BDC3424C0127900E55A12 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8F3D9FA924C0055300374E09 /* Project object */;
 }
