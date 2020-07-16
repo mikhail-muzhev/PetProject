@@ -27,8 +27,6 @@ enum DefaultStyle {
 
 }
 
-// swiftlint:disable type_body_length
-
 enum LabelStyle {
 
     case whiteBoldRight24
