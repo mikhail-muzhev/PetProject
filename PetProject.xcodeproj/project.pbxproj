@@ -23,6 +23,18 @@
 		8F8BDC3624C0127900E55A12 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3524C0127900E55A12 /* RxSwift */; };
 		8F8BDC3824C0127900E55A12 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3724C0127900E55A12 /* RxRelay */; };
 		8F8BDC3A24C0127900E55A12 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 8F8BDC3924C0127900E55A12 /* RxCocoa */; };
+		8F8BDC3E24C0137100E55A12 /* AttributedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC3D24C0137100E55A12 /* AttributedLabel.swift */; };
+		8F8BDC4224C013D800E55A12 /* UIView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC4124C013D800E55A12 /* UIView+Style.swift */; };
+		8F8BDC4524C0141A00E55A12 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC4424C0141A00E55A12 /* Style.swift */; };
+		8F8BDC4924C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC4724C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift */; };
+		8F8BDC4A24C0172600E55A12 /* NSAttributedString+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC4824C0172600E55A12 /* NSAttributedString+Attributes.swift */; };
+		8F8BDC4E24C0192800E55A12 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC4D24C0192800E55A12 /* Logger.swift */; };
+		8F8BDC5624C0195800E55A12 /* ErrorLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5024C0195700E55A12 /* ErrorLoggerType.swift */; };
+		8F8BDC5724C0195800E55A12 /* SuccessLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5124C0195700E55A12 /* SuccessLoggerType.swift */; };
+		8F8BDC5824C0195800E55A12 /* LoggerMessageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5224C0195700E55A12 /* LoggerMessageType.swift */; };
+		8F8BDC5924C0195800E55A12 /* DebugLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5324C0195800E55A12 /* DebugLoggerType.swift */; };
+		8F8BDC5A24C0195800E55A12 /* DefaultLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5424C0195800E55A12 /* DefaultLoggerType.swift */; };
+		8F8BDC5B24C0195800E55A12 /* WarningLoggerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +59,18 @@
 		8F8BDBE624C00D4B00E55A12 /* PetProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8BDBE824C00D4B00E55A12 /* PetProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetProjectTests.swift; sourceTree = "<group>"; };
 		8F8BDBEA24C00D4B00E55A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F8BDC3D24C0137100E55A12 /* AttributedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AttributedLabel.swift; sourceTree = "<group>"; };
+		8F8BDC4124C013D800E55A12 /* UIView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Style.swift"; sourceTree = "<group>"; };
+		8F8BDC4424C0141A00E55A12 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		8F8BDC4724C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+AttributesCustomizing.swift"; sourceTree = "<group>"; };
+		8F8BDC4824C0172600E55A12 /* NSAttributedString+Attributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Attributes.swift"; sourceTree = "<group>"; };
+		8F8BDC4D24C0192800E55A12 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		8F8BDC5024C0195700E55A12 /* ErrorLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorLoggerType.swift; sourceTree = "<group>"; };
+		8F8BDC5124C0195700E55A12 /* SuccessLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessLoggerType.swift; sourceTree = "<group>"; };
+		8F8BDC5224C0195700E55A12 /* LoggerMessageType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerMessageType.swift; sourceTree = "<group>"; };
+		8F8BDC5324C0195800E55A12 /* DebugLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugLoggerType.swift; sourceTree = "<group>"; };
+		8F8BDC5424C0195800E55A12 /* DefaultLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultLoggerType.swift; sourceTree = "<group>"; };
+		8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WarningLoggerType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,14 +121,16 @@
 		8F3D9FB324C0055300374E09 /* PetProject */ = {
 			isa = PBXGroup;
 			children = (
+				8F8BDC3F24C0138900E55A12 /* Extensions */,
 				8F3D9FE224C008C400374E09 /* Lifecycle */,
-				8F3D9FB424C0055300374E09 /* AppDelegate.swift */,
-				8F3D9FB624C0055300374E09 /* SceneDelegate.swift */,
-				8F3D9FB824C0055300374E09 /* ViewController.swift */,
-				8F3D9FBA24C0055300374E09 /* Main.storyboard */,
+				8F8BDC4324C013F800E55A12 /* Models */,
+				8F8BDC4C24C0190000E55A12 /* Services */,
+				8F8BDC3B24C0133100E55A12 /* Views */,
 				8F3D9FBD24C0055800374E09 /* Assets.xcassets */,
-				8F3D9FBF24C0055800374E09 /* LaunchScreen.storyboard */,
 				8F3D9FC224C0055800374E09 /* Info.plist */,
+				8F3D9FBF24C0055800374E09 /* LaunchScreen.storyboard */,
+				8F3D9FBA24C0055300374E09 /* Main.storyboard */,
+				8F3D9FB824C0055300374E09 /* ViewController.swift */,
 			);
 			path = PetProject;
 			sourceTree = "<group>";
@@ -112,6 +138,8 @@
 		8F3D9FE224C008C400374E09 /* Lifecycle */ = {
 			isa = PBXGroup;
 			children = (
+				8F3D9FB424C0055300374E09 /* AppDelegate.swift */,
+				8F3D9FB624C0055300374E09 /* SceneDelegate.swift */,
 			);
 			path = Lifecycle;
 			sourceTree = "<group>";
@@ -123,6 +151,86 @@
 				8F8BDBEA24C00D4B00E55A12 /* Info.plist */,
 			);
 			path = PetProjectTests;
+			sourceTree = "<group>";
+		};
+		8F8BDC3B24C0133100E55A12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC3C24C0135D00E55A12 /* Labels */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8F8BDC3C24C0135D00E55A12 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC3D24C0137100E55A12 /* AttributedLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		8F8BDC3F24C0138900E55A12 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4624C016ED00E55A12 /* NSAttributedString */,
+				8F8BDC4024C013A400E55A12 /* UIView */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8F8BDC4024C013A400E55A12 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4124C013D800E55A12 /* UIView+Style.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		8F8BDC4324C013F800E55A12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4424C0141A00E55A12 /* Style.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F8BDC4624C016ED00E55A12 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4824C0172600E55A12 /* NSAttributedString+Attributes.swift */,
+				8F8BDC4724C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift */,
+			);
+			path = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		8F8BDC4B24C018F600E55A12 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4D24C0192800E55A12 /* Logger.swift */,
+				8F8BDC4F24C0192B00E55A12 /* MessageType */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		8F8BDC4C24C0190000E55A12 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC4B24C018F600E55A12 /* Logger */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8F8BDC4F24C0192B00E55A12 /* MessageType */ = {
+			isa = PBXGroup;
+			children = (
+				8F8BDC5324C0195800E55A12 /* DebugLoggerType.swift */,
+				8F8BDC5424C0195800E55A12 /* DefaultLoggerType.swift */,
+				8F8BDC5024C0195700E55A12 /* ErrorLoggerType.swift */,
+				8F8BDC5224C0195700E55A12 /* LoggerMessageType.swift */,
+				8F8BDC5124C0195700E55A12 /* SuccessLoggerType.swift */,
+				8F8BDC5524C0195800E55A12 /* WarningLoggerType.swift */,
+			);
+			path = MessageType;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,9 +351,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F8BDC5924C0195800E55A12 /* DebugLoggerType.swift in Sources */,
+				8F8BDC4A24C0172600E55A12 /* NSAttributedString+Attributes.swift in Sources */,
+				8F8BDC3E24C0137100E55A12 /* AttributedLabel.swift in Sources */,
+				8F8BDC4524C0141A00E55A12 /* Style.swift in Sources */,
+				8F8BDC4924C0172600E55A12 /* NSAttributedString+AttributesCustomizing.swift in Sources */,
+				8F8BDC4E24C0192800E55A12 /* Logger.swift in Sources */,
+				8F8BDC5724C0195800E55A12 /* SuccessLoggerType.swift in Sources */,
 				8F3D9FB924C0055300374E09 /* ViewController.swift in Sources */,
 				8F3D9FB524C0055300374E09 /* AppDelegate.swift in Sources */,
 				8F3D9FB724C0055300374E09 /* SceneDelegate.swift in Sources */,
+				8F8BDC5B24C0195800E55A12 /* WarningLoggerType.swift in Sources */,
+				8F8BDC5824C0195800E55A12 /* LoggerMessageType.swift in Sources */,
+				8F8BDC5624C0195800E55A12 /* ErrorLoggerType.swift in Sources */,
+				8F8BDC4224C013D800E55A12 /* UIView+Style.swift in Sources */,
+				8F8BDC5A24C0195800E55A12 /* DefaultLoggerType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
