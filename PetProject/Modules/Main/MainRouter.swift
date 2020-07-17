@@ -29,5 +29,10 @@ final class MainRouter: BaseRouter {
 // MARK: - Routing Methods
 
 extension MainRouter {
-    
+
+    func navigateToCarsList() {
+        let carsListRouter = CarsListRouter(navigation: navigationController)
+        onNext(childCoordinator: carsListRouter)
+    }
+
 }

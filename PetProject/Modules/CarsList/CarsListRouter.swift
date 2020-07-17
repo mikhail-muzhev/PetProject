@@ -12,7 +12,7 @@ final class CarsListRouter: BaseRouter {
 
     override func start() {
         let viewController = CarsListFabric.assembledScreen(router: self)
-        navigationController?.present(viewController, animated: true)
+        navigationController?.pushViewController(viewController, animated: true)
     }
     
 }

@@ -18,6 +18,14 @@ final class MainView: UIView {
     private let presenter: MainPresenterProtocol
     
     // MARK: - UI Elements
+
+    private lazy var toCarsListButton: UIButton = {
+        let button = UIButton()
+        button.setTitle(R.string.localizable.main_to_cars_list(), for: .normal)
+        button.addTarget(self, action: #selector(toCarsListButtonDidPressed), for: .touchUpInside)
+        button.setTitleColor(.darkText, for: .normal)
+        return button
+    }()
     
     // MARK: - Lifecycle
     
@@ -30,6 +38,12 @@ final class MainView: UIView {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+
+    // MARK: - Actions
+
+    @objc private func toCarsListButtonDidPressed() {
+        presenter.toCarsList()
     }
     
 }
@@ -44,11 +58,13 @@ extension MainView {
     }
     
     private func configureConstraints() {
-        
+        toCarsListButton.snp.makeConstraints {
+            $0.center.equalToSuperview()
+        }
     }
 
     private func addSubviews() {
-        
+        addSubview(toCarsListButton)
     }
 
 }

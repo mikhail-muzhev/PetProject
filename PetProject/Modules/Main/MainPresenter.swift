@@ -8,6 +8,7 @@
 
 protocol MainPresenterProtocol {
     func setView(_ view: MainViewProtocol)
+    func toCarsList()
 }
 
 final class MainPresenter {
@@ -19,6 +20,11 @@ final class MainPresenter {
     init(_ router: MainRouter?, _ interactor: MainInteractor) {
         self.router = router
         self.interactor = interactor
+    }
+
+    func toCarsList() {
+        guard let router = router else { return }
+        router.navigateToCarsList()
     }
 
 }

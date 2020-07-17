@@ -29,9 +29,5 @@ final class MainViewController: UIViewController {
         title = R.string.localizable.main_title()
         view.backgroundColor = .white
     }
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
     
 }

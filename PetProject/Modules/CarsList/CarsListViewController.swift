@@ -26,6 +26,7 @@ final class CarsListViewController: UIViewController {
     
     override func loadView() {
         view = _view
+        view.backgroundColor = .white
     }
     
 }
