@@ -11,9 +11,19 @@ import UIKit
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
+    var mainRouter: MainRouter?
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard scene as? UIWindowScene != nil else { return }
+        guard let windowScene = scene as? UIWindowScene else { return }
+        let window = UIWindow(frame: windowScene.coordinateSpace.bounds)
+        window.windowScene = windowScene
+        window.backgroundColor = .black
+        window.overrideUserInterfaceStyle = .light
+        self.window = window
+        let mainRouter = MainRouter(window: window)
+        self.mainRouter = mainRouter
+        mainRouter.start()
+        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
