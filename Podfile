@@ -11,6 +11,7 @@ target 'PetProject' do
   pod 'SnapKit'
   pod 'R.swift'
   pod 'SwiftLint'
+  pod 'Kingfisher'
 end
 
 target 'PetProjectTests' do
