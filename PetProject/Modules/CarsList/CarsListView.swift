@@ -10,14 +10,21 @@ import UIKit
 import SnapKit
 
 protocol CarsListViewProtocol: class {
-
+    func set(_ cars: [CarListItem])
 }
 
 final class CarsListView: UIView {
     
     private let presenter: CarsListPresenterProtocol
+    private var dataSource = CarsListDataSource(carsItems: [])
     
     // MARK: - UI Elements
+
+    private lazy var collectionView: UICollectionView = {
+        let collectionView = UICollectionView()
+        collectionView.delegate = self
+        return collectionView
+    }()
     
     // MARK: - Lifecycle
     
@@ -56,5 +63,11 @@ extension CarsListView {
 // MARK: - CarsListViewProtocol
 
 extension CarsListView: CarsListViewProtocol {
+
+    func set(_ cars: [CarListItem]) {
+        self.dataSource = CarsListDataSource(carsItems: cars)
+        collectionView.dataSource = self.dataSource
+        collectionView.reloadData()
+    }
 
 }

@@ -12,4 +12,6 @@ protocol Fillable {
     func fill(model: FillModel)
 }
 
-protocol FillModel {}
+protocol FillModel {
+    var reuseIdentifier: String { get }
+}
